@@ -1,0 +1,142 @@
+@media all and (min-width:768px){
+
+.tablet{
+    display: block;
+}
+
+.bn .mobile{
+    display: none;
+}
+
+
+.s1{
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s1 .item{
+    width: 50%;
+    margin-bottom: 48px;
+}
+
+.s1 .photo1{
+    order:1;
+}
+.s1 .txt1{
+    order:2;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.s1 .photo2{
+    order:4
+}
+
+.s1 .txt2{
+    order:3;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2 h2{
+    margin-bottom: 24px;
+}
+.s2 .con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.s2 .item{
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.s2 .btnPlus{
+    margin-top: 24px;
+}
+
+
+/* section3 */
+
+.s3{
+    padding:48px 20px;
+    text-align: left;
+    background-position: unset;
+}
+.s3:after{
+    content: none;
+}
+.s3 em{
+    font-style: normal;
+    font-size: 30px;
+    font-family: donut;
+}
+.s3 h2{
+    font-size: 28px;
+}
+
+.s3 .txt{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+.s3 .btn{
+    padding-left: 20px;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.s3 .btn a{
+    width: 120px;
+    margin:0;
+    margin-right: 12px;
+}
+
+.s4{
+    display: flex;
+    position: relative;
+    padding-top: 120px;
+}
+.sns{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.franchise{
+    margin-right: 12px;
+}
+.collabo{
+    margin-left: 12px;
+}
+
+
+.fWrap{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0 20px;
+    text-align: left;    
+}
+
+}/*tablet 괄호 끝 ! ! ! !*/

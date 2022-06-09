@@ -1,0 +1,190 @@
+@media all and (min-width:1200px){
+
+.mobile{
+    display: none;
+}
+
+.pc{
+    display: block;
+}
+header button{
+    display: none;
+}
+
+header{
+    height: auto;
+    background-color: transparent;
+    border-top: 4px solid #a57dff;
+}
+
+.hWrap{
+    position: relative;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+
+}
+
+h1 .mobile{
+    display: none;
+}
+
+h1 .pc{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+nav{
+    display: block;
+    position: static;
+    background-color: transparent;
+}
+
+.gnb{
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.gnb li{
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #363636;
+}
+
+.util{
+    font-size: 14px;
+    color: #363636;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+
+
+.bn .tablet{
+    display: none;
+}
+
+.bn{
+    height: 560px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bn a{
+    display: block;
+    height: 100%;
+}
+
+.s2{
+  padding:0;
+}
+
+.s2 h2{
+  font-size: 28px;
+}
+.s2 .con{
+  flex-wrap: nowrap;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.s2 .item{
+  box-shadow: 10px 10px 20px rgba(183, 163, 185, 0.5);
+  transition: transform 1s;
+  padding: 0;
+  width: 25%;
+  margin-right: 24px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.s2 .item:hover{
+  transform: translate(-5px, -5px);
+  box-shadow: 10px 10px 30px rgba(183, 163, 185, 0.3);
+}
+
+
+.s2 .item:last-child{
+  margin-right: 0;
+}
+.s2 .item a{
+  display: block;
+}
+
+.s2 .item .pic{
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+.s2 .item .txt{
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding:20px 20px 40px
+}
+
+.btnPlus{
+  display: none;
+}
+
+.s3{
+  padding:72px 0 96px;
+}
+.s4{
+  padding:0;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sns{
+  margin-right: 12px;
+  position: relative;
+  /* 
+  position:relative
+  있던자리에서 움직이는
+  속성
+  */
+  left: 0;
+  transform: unset;
+}
+
+.sns .pc{
+  width: 100%;
+}
+
+.sns ul{
+  position: absolute;
+  top: 200px;
+  left: 30px;
+}
+
+.s5{
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 72px;
+}
+.s5 p{
+  color: #363636;
+  font-family: pretendard;
+  margin-top: 24px;
+  font-size: 14px;
+}
+
+
+
+.fWrap{
+  padding:0;
+}
+
+}/*pc 1200px*/
