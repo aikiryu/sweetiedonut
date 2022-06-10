@@ -39,3 +39,20 @@ resp();
 $(window).resize(resp);
 
 common();
+
+function loadCSS(file) {
+    var link = document.createElement("link");
+    link.href = chrome.extension.getURL(file + '.css');
+    link.id = file;
+    link.type = "text/css";
+    link.rel = "stylesheet";
+    document.getElementsByTagName("head")[0].appendChild(link);
+  }
+  
+  function unloadCSS(file) {
+    var cssNode = document.getElementById(file);
+    cssNode && cssNode.parentNode.removeChild(cssNode);
+  }
+
+  loadCSS('injected stylesheet');
+  unloadCSS('injected stylesheet');
